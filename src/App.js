@@ -1,21 +1,16 @@
-import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Login from "./Page/Login"
-import Signup from "./Page/Signup"
-import Dashboard from "./Page/Dashboard"
-import Navbar from './Section/Navbar'
+import Hero from './Section/Hero';
+import Navbar from "./Section/Navbar"
+import { useState } from 'react';
 
 function App() {
-  return (
-    <div>
-      <Navbar/>
 
-      <Routes>
-        <Route to="/" element={<Home/>}/>
-        <Route to="/login" element={<Login/>}/>
-        <Route to="/signup" element={<Signup/>}/>
-        <Route to="/dashboard" element={<Dashboard/>}/>
-      </Routes>
+  const [isLoggedin, setisLoggedin] = useState(false);
+
+  return (
+    <div className="w-screen min-h-screen bg-richblack-900 font-inter">
+      <Navbar isLoggedin={isLoggedin} setisLoggedin={setisLoggedin} />
+      <Hero/>
     </div>
   );
 }
