@@ -127,7 +127,10 @@ module.exports = {
     extend: {
       maxWidth: {
         maxContent: "1260px",
-        maxContentTab: "650px"
+        maxContentTab: "650px",
+        boxShadow: {
+          'top-left': '5px -5px 10px rgba(0, 0, 0, 0.25)',
+        },
       },
     },
   },
