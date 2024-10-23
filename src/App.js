@@ -4,6 +4,7 @@ import Navbar from "./Section/Navbar"
 import { useState } from 'react';
 import WhiteSection from './Section/WhiteSection';
 import DarkSection from './Section/DarkSection';
+import Footer from './Section/Footer';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Hero/>
       <WhiteSection/>
       <DarkSection/>
+      <Footer/>
     </div>
   );
 }

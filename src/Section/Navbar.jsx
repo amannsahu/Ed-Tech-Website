@@ -10,7 +10,7 @@ const Navbar = ({isLoggedin, setisLoggedin}) => {
       </div>
 
       <nav>
-        <ul className='text-richblack-5 flex items-center gap-3'>
+        <ul className='flex items-center gap-5 text-lg text-richblack-5'>
           <li>
             <Link to='/' >Home</Link>
           </li>
@@ -26,7 +26,7 @@ const Navbar = ({isLoggedin, setisLoggedin}) => {
       <div className='text-richblack-5 flex items-center gap-3'>
         {!isLoggedin && 
           <Link to="/login">
-            <button>
+            <button className='bg-richblack-200 py-1 px-3 rounded-md'>
               Login
             </button>
           </Link>
@@ -34,7 +34,7 @@ const Navbar = ({isLoggedin, setisLoggedin}) => {
 
         {!isLoggedin && 
           <Link to="/signup" >
-            <button>
+            <button className='bg-richblack-200 py-1 px-3 rounded-md'>
               Signup
             </button>
           </Link>

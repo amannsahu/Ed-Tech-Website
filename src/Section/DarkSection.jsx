@@ -31,8 +31,8 @@ const DarkSection = () => {
       </div>
 
       <div>
-        <h1 className='text-3xl font-semibold text-richblack-5 text-center pt-10'>Reviews from other learners</h1>
-        <div>
+        <h1 className='text-4xl font-semibold text-richblack-5 text-center pt-10'>Reviews from other learners</h1>
+        <div className='py-20'>
             <ReviewSection/>
         </div>
       </div>
