@@ -10,27 +10,96 @@ const Footer = () => {
     return (
       <footer className="bg-richblack-800 text-richblack-200 py-10 px-8">
         <div className='flex items-start gap-16'>
-            <div className='flex flex-col gap-5'>
-                <img src={logo} alt='footer-logo' />
-                <div>
-                    <h3 className="font-bold pb-1">Company</h3>
-                    <ul className='space-y-2'>
-                        <li className='hover:text-richblack-5'>
-                            <a href="#">About</a>
-                        </li>
-                        <li className='hover:text-richblack-5'>
-                            <a href="#">Carrers</a>
-                        </li>
-                        <li className='hover:text-richblack-5'>
-                            <a href="#">Affiliates</a>
-                        </li>
-                    </ul>
+            <div className='flex items-start gap-12'>
+                <div className='flex flex-col gap-5'>
+                    <img src={logo} alt='footer-logo' />
+                    <div>
+                        <h3 className="font-bold pb-1">Company</h3>
+                        <ul className='space-y-2'>
+                            <li className='hover:text-richblack-5'>
+                                <a href="#">About</a>
+                            </li>
+                            <li className='hover:text-richblack-5'>
+                                <a href="#">Carrers</a>
+                            </li>
+                            <li className='hover:text-richblack-5'>
+                                <a href="#">Affiliates</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className='flex items-center gap-5'>
+                        <a href="#" className='text-3xl hover:text-richblack-5'><FaGithub/></a>
+                        <a href="#" className='text-3xl hover:text-richblack-5'><FaInstagram/></a>
+                        <a href="#" className='text-3xl hover:text-richblack-5'><FaXTwitter/></a>
+                        <a href="#" className='text-3xl hover:text-richblack-5'><FaYoutube/></a>
+                    </div>
                 </div>
-                <div className='flex items-center gap-5'>
-                    <a href="#" className='text-3xl hover:text-richblack-5'><FaGithub/></a>
-                    <a href="#" className='text-3xl hover:text-richblack-5'><FaInstagram/></a>
-                    <a href="#" className='text-3xl hover:text-richblack-5'><FaXTwitter/></a>
-                    <a href="#" className='text-3xl hover:text-richblack-5'><FaYoutube/></a>
+
+                <div className='flex flex-col gap-12'>
+                    <div className='flex flex-col'>
+                        <h3 className='font-bold pb-1'>Resources</h3>
+                        <ul className='space-y-2 w-[130px]'>
+                            <li className='hover:text-richblack-5'>
+                                <a href="#">Articles</a>
+                            </li>
+                            <li className='hover:text-richblack-5'>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li className='hover:text-richblack-5'>
+                                <a href="#">Chart Sheets</a>
+                            </li>
+                            <li className='hover:text-richblack-5'>
+                                <a href="#">Code Challanges</a>
+                            </li>
+                            <li className='hover:text-richblack-5'>
+                                <a href="#">Projects</a>
+                            </li>
+                            <li className='hover:text-richblack-5'>
+                                <a href="#">Workspaces</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className='flex flex-col'>
+                        <h3 className='font-bold pb-1'>Support</h3>
+                        <ul className='space-y-2'>
+                            <li className='hover:text-richblack-5'>
+                                <a href="#">Help Center</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div className='flex flex-col gap-12'>
+                    <div className='flex flex-col'>
+                        <h3 className='font-bold pb-1'>Plans</h3>
+                        <ul className='space-y-2 w-[130px]'>
+                            <li className='hover:text-richblack-5'>
+                                <a href="#">Paid membership</a>
+                            </li>
+                            <li className='hover:text-richblack-5'>
+                                <a href="#">For students</a>
+                            </li>
+                            <li className='hover:text-richblack-5'>
+                                <a href="#">Business Solution</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className='flex flex-col'>
+                        <h3 className='font-bold pb-1'>Community</h3>
+                        <ul className='space-y-2'>
+                            <li className='hover:text-richblack-5'>
+                                <a href="#">Forums</a>
+                            </li>
+                            <li className='hover:text-richblack-5'>
+                                <a href="#">Chatper</a>
+                            </li>
+                            <li className='hover:text-richblack-5'>
+                                <a href="#">Events</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 

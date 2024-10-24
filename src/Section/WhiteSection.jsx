@@ -17,21 +17,21 @@ const WhiteSection = () => {
   return (
     <div>
         <div className='bg-pure-greys-5 text-richblack-800'>
-            <div className='homepage_bg h-[333px] flex items-center justify-center space-x-8'>
+            <div className='homepage_bg h-[333px] flex items-center justify-center lg:space-x-8 max-md:flex-col max-md:gap-7'>
             <YellowButton text={"Explore Full Catalog"} linkto={"/signup"} icon={<FaArrowRight/>} />
             <BlackButton text={"Learn More"} linkto={"/login"} />
             </div>
         </div>
 
         <div className='bg-pure-greys-5 text-richblack-700 pt-20'>
-            <div className='flex items-start ml-20 mr-20'>
+            <div className='flex items-start lg:ml-20 lg:mr-20 max-md:flex-col max-md:ml-4 max-md:gap-5'>
                 <div>
                     <h1 className='text-4xl font-semibold'>
                     Get the skills you need for a <HighlightText text={"job that is in demand."} />
                     </h1>
                 </div>
 
-                <div className='flex flex-col gap-8 w-[700px]'>
+                <div className='flex flex-col lg:gap-8 lg:w-[700px] max-md:gap-5'>
                     <p>
                     The modern StudyNotion is the dictates its own terms. Today, to be a competitive specialist requires more than 
                     professional skills.
