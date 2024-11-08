@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
       </Link>
 
-      <h1 className='text-richblack-5 font-semibold font-inter text-[36px] leading-[44px] text-center tracking-tight mt-7'>
+      <h1 className='text-richblack-5 font-semibold font-inter text-[36px] leading-[44px] text-center tracking-tight mt-7 max-sm:text-2xl'>
         Empower Your Future with <HighlightText text={"Coding Skills"} />
       </h1>
 
@@ -35,12 +35,12 @@ const Hero = () => {
       </div>
 
       <div className='pt-16'>
-        <img src={boxoffice} alt='hero-img' className='w-[1035px] h-[515px] mx-auto'/>
+        <img src={boxoffice} alt='hero-img' className='w-fit h-fit mx-auto max-sm:w-fit max-sm:h-fit'/>
       </div>
 
       <div className='flex items-center gap-10 pt-10 max-md:flex-col'>
         <div className='flex flex-col gap-5 lg:w-[486px]'>
-            <h1 className='text-3xl text-richblack-5 max-md:w-[300px] max-md:mx-auto'>
+            <h1 className='text-3xl max-sm:text-2xl text-richblack-5 max-md:w-[300px] max-md:mx-auto'>
                 Unlock Your <HighlightText text={"Coding Potential"} /> with our online courses.
             </h1>
             <p className='text-richblack-200 max-md:pl-4'>
@@ -64,7 +64,7 @@ const Hero = () => {
         </div>
 
         <div className='flex flex-col gap-5 lg:w-[486px]'>
-            <h1 className='text-4xl text-richblack-5 w-[240px]'>
+            <h1 className='text-4xl max-sm:text-2xl text-richblack-5 w-[240px]'>
                 Start <HighlightText text={"Coding"} /> in seconds.
             </h1>
             <p className='text-richblack-200'>

@@ -10,7 +10,7 @@ const Footer = () => {
     return (
       <footer className="bg-richblack-800 text-richblack-200 py-10 px-8">
         <div className='flex items-start gap-16'>
-            <div className='flex items-start gap-12'>
+            <div className='flex items-start gap-12 max-sm:flex-col'>
                 <div className='flex flex-col gap-5'>
                     <img src={logo} alt='footer-logo' />
                     <div>

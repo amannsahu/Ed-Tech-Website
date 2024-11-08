@@ -23,10 +23,10 @@ const WhiteSection = () => {
             </div>
         </div>
 
-        <div className='bg-pure-greys-5 text-richblack-700 pt-20'>
+        <div className='bg-pure-greys-5 text-richblack-700 py-10'>
             <div className='flex items-start lg:ml-20 lg:mr-20 max-md:flex-col max-md:ml-4 max-md:gap-5'>
                 <div>
-                    <h1 className='text-4xl font-semibold'>
+                    <h1 className='text-4xl max-sm:text-2xl font-semibold'>
                     Get the skills you need for a <HighlightText text={"job that is in demand."} />
                     </h1>
                 </div>
@@ -42,7 +42,7 @@ const WhiteSection = () => {
         </div>
 
         <div className='bg-pure-greys-5 text-richblack-700 pt-20'>
-            <div className='flex flex-row items-center gap-16 pl-16'>
+            <div className='flex flex-row items-center gap-16 lg:pl-16 max-md:flex-col'>
                 <div className='relative flex flex-col gap-5'>
                     <Timeline imgSrc={leadership} heading={"Leadership"} text={"Fully Committed to the success company"} />
                     <Timeline imgSrc={responsibility} heading={"Responsibility"} text={"Students will always be our top priority"} />
@@ -51,9 +51,10 @@ const WhiteSection = () => {
                 </div>
 
                 <div className='relative'>
-                    <img src={timelineimg} width={714} height={545} alt='timelinelogoimg' loading='lazy' />
+                    <img src={timelineimg} width={714} height={545} alt='timelinelogoimg' loading='lazy' 
+                    className='max-sm:px-2 max-sm:w-[400px]' />
                     <div className='bg-caribbeangreen-700 text-pure-greys-5 flex flex-row gap-5 items-center justify-evenly h-24 absolute 
-                    -bottom-12 left-16 px-20'>
+                    -bottom-12 left-16 px-20 max-sm:hidden'>
                         <div className='flex items-center gap-7'>
                             <h1 className='font-bold text-4xl'>10</h1>
                             <p className='uppercase text-caribbeangreen-400 w-[100px]'>Years Experiences</p>
@@ -68,22 +69,22 @@ const WhiteSection = () => {
             </div>
         </div>
 
-        <div className='bg-pure-greys-5 text-richblack-700 pt-32 pb-10'>
+        <div className='bg-pure-greys-5 text-richblack-700 lg:pt-32 lg:pb-10 max-sm:pt-12'>
         <div className='flex flex-col'>
           <div className="space-y-5">
-            <h1 className='text-4xl font-semibold text-center'>
+            <h1 className='text-4xl max-sm:text-2xl font-semibold text-center max-sm:text-left max-sm:pl-4'>
             Your swiss knife for <HighlightText text={"learning any language"} />
             </h1>
-            <p className='font-medium text-center w-[700px] mx-auto'>
+            <p className='font-medium text-center w-[700px] mx-auto max-sm:text-left max-sm:w-[400px]'>
                 Using spin making learning multiple languages easy. with 20+ languages realistic voice-over, progress tracking, 
                 custom schedule and more.
             </p>
           </div>
 
           <div className='flex flex-row items-center justify-center py-10'>
-            <img src={progress} alt='know-your-progress' className='object-contain size-1/4 -mr-20' />
-            <img src={compare} alt='compare-with-other' className='object-contain size-1/4' />
-            <img src={lessons} alt='plan-your-lessons' className='object-contain size-1/4 -ml-24' />
+            <img src={progress} alt='know-your-progress' className='object-contain lg:size-1/4 max-sm:size-1/2 -mr-28' />
+            <img src={compare} alt='compare-with-other' className='object-contain lg:size-1/4 max-sm:size-1/2' />
+            <img src={lessons} alt='plan-your-lessons' className='object-contain lg:size-1/4 max-sm:size-1/2 -ml-28' />
           </div>
 
           <div className='flex items-center justify-center py-10'>

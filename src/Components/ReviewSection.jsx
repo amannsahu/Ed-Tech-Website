@@ -6,7 +6,7 @@ import watson from "../assets/Images/2.png"
 
 const ReviewSection = () => {
   return (
-    <div className='flex justify-evenly'>
+    <div className='flex justify-evenly max-sm:flex-col max-sm:gap-5 max-sm:items-center'>
       <div className='flex flex-col gap-3 pt-4 pl-4 w-[300px] bg-richblack-800 rounded-xl'>
         <div className='flex items-center gap-3'>
           <img src={fisher} width={50} height={50} alt='review-img' className=' rounded-full' />
